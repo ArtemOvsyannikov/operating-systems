@@ -12,10 +12,10 @@ if [[ ! -f "items.txt" || ! -f "properties.txt" ]]; then
 fi
 
 echo "Инвентарь:"
-for i in $(seq   1   5)
+for i in $(seq 1 5)
 do
-  item=$(shuf -n   1 "items.txt")
-  property=$(shuf -n   1 "properties.txt")
+  item=$(shuf -n 1 "items.txt")
+  property=$(shuf -n 1 "properties.txt")
 
   echo "$i. $item $property"
 done
