@@ -7,7 +7,7 @@ if [[ "$1" == "-h" || "$1" == "--help" ]]; then
 fi
 
 if [[ ! -f "items.txt" || ! -f "properties.txt" ]]; then
-    echo "Ошибка: Файлы items.txt и properties.txt должны находиться в той же директории, что и этот скрипт."
+    echo "Ошибка: Файлы items.txt и properties.txt должны находиться в той же директории, откуда запускается скрипт."
     exit 1
 fi
 
